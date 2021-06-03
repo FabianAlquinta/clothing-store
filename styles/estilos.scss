@@ -90,5 +90,113 @@ nav{
     display: block;
     width: 63%;
     margin: 0 auto;
+    padding-bottom: 2rem;
+    }
+}
+
+.mujer-container{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    height: 70px;
+    margin-left: 35rem;
+    padding-left: 45px;
+    padding-bottom: 25px;
+
+    .mujer{
+        font-size: 3rem;
+        width: 100rem;
+        padding-right: 2rem;
+
+
+    }
+
+
+    .botonmujer{
+        font-size: 1.4rem;
+        border: 2px solid rgba(137,108,255,1);
+        padding: 10px 20px 10px 20px;
+    }
+}
+
+
+.picturebox{
+    display: flex;
+    justify-content: flex-start;
+    margin-left: 35rem;
+    .big-picture{
+
+        img{
+            width: 540px;
+            padding-right: 4rem;
+            padding-left: 50px;
+        }
+
+        .tituloo{
+            font-size: 10px;
+            padding: 1rem;
+            color: black;
+        }
+
+        .frasee{
+            padding: 1rem;
+            color: #7f898e;
+        }
+
+        .botonn{
+            display: inline-block;
+            margin: 1rem;
+            padding: 1rem;
+            border: 2px solid rgba(137,108,255,1);
+        }
+
+    }
+
+    .picture{
+
+        img{
+            width: 255px;
+            padding-right: 4rem;
+        }
+
+        .tituloo{
+            font-size: 10px;
+            padding: 1rem;
+            color: black;
+        }
+
+        .frasee{
+            padding: 1rem;
+            color: #7f898e;
+        }
+
+        .botonn{
+            display: inline-block;
+            margin: 1rem;
+            padding: 1rem;
+            border: 2px solid rgba(137,108,255,1);
+        }
+
+    }
+}
+
+.hombre-container{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    height: 70px;
+    margin-left: 35rem;
+    padding-left: 45px;
+    padding-bottom: 25px;
+
+    .hombre{
+        font-size: 3rem;
+        width: 100rem;
+        padding-right: 2rem;
+    }
+    .botonhombre{
+        font-size: 1.4rem;
+        border: 2px solid rgba(137,108,255,1);
+        padding: 10px 20px 10px 20px;
     }
 }
