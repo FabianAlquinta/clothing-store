@@ -12,6 +12,7 @@ html {
 }
 
 body {
+  background: #fafafa;
   font-family: Arial, Helvetica, sans-serif;
 }
 
@@ -79,96 +80,129 @@ nav .nav-box :hover {
   cursor: pointer;
 }
 
-.biggest-picture img {
-  display: block;
-  width: 63%;
+.allall {
   margin: 0 auto;
-  padding-bottom: 2rem;
+  width: 67%;
+  background: #fff;
 }
-
-.mujer-container {
+.allall .biggest-picture img {
+  display: block;
+  width: 100%;
+  margin: 0 auto;
+  padding-bottom: 3rem;
+}
+.allall .mujer-container {
   display: flex;
   justify-content: flex-start;
   align-items: center;
   height: 70px;
-  margin-left: 35rem;
-  padding-left: 45px;
-  padding-bottom: 25px;
+  margin-left: 70px;
+  background: #fff;
 }
-.mujer-container .mujer {
+.allall .mujer-container .mujer {
+  width: 80rem;
+}
+.allall .mujer-container .mujer h4 {
   font-size: 3rem;
-  width: 100rem;
+  width: 85rem;
   padding-right: 2rem;
+  padding-bottom: 30px;
+  border-bottom: 1px solid #3c3c3c;
 }
-.mujer-container .botonmujer {
+.allall .mujer-container .botonmujer {
   font-size: 1.4rem;
   border: 2px solid #896cff;
-  padding: 10px 20px 10px 20px;
+  padding: 8px 50px 8px 50px;
+  margin-top: 30px;
+  margin-left: 100px;
 }
-
-.picturebox {
+.allall .picturebox {
   display: flex;
   justify-content: flex-start;
-  margin-left: 35rem;
+  padding-top: 30px;
+  padding-bottom: 100px;
 }
-.picturebox .big-picture img {
+.allall .picturebox .big-picture {
   width: 540px;
-  padding-right: 4rem;
-  padding-left: 50px;
+  border: 1px solid black;
+  border-radius: 5px;
+  margin-left: 80px;
+  margin-right: 40px;
 }
-.picturebox .big-picture .tituloo {
-  font-size: 10px;
-  padding: 1rem;
+.allall .picturebox .big-picture img {
+  width: 100%;
+}
+.allall .picturebox .big-picture .tituloo {
+  padding-left: 2rem;
+  padding-top: 2.5rem;
+  font-size: 18px;
+  font-weight: bold;
   color: black;
 }
-.picturebox .big-picture .frasee {
-  padding: 1rem;
+.allall .picturebox .big-picture .frasee {
+  font-size: 16px;
+  padding: 2rem;
   color: #7f898e;
 }
-.picturebox .big-picture .botonn {
+.allall .picturebox .big-picture .botonn {
   display: inline-block;
-  margin: 1rem;
+  margin-left: 2rem;
+  margin-bottom: 2rem;
   padding: 1rem;
   border: 2px solid #896cff;
 }
-.picturebox .picture img {
+.allall .picturebox .picture {
+  border: 1px solid black;
+  border-radius: 5px;
   width: 255px;
-  padding-right: 4rem;
+  margin-right: 40px;
 }
-.picturebox .picture .tituloo {
-  font-size: 10px;
-  padding: 1rem;
+.allall .picturebox .picture img {
+  width: 100%;
+}
+.allall .picturebox .picture .tituloo {
+  padding-left: 2rem;
+  padding-top: 2.5rem;
+  font-size: 18px;
+  font-weight: bold;
   color: black;
 }
-.picturebox .picture .frasee {
-  padding: 1rem;
+.allall .picturebox .picture .frasee {
+  font-size: 16px;
+  padding: 2rem;
   color: #7f898e;
 }
-.picturebox .picture .botonn {
+.allall .picturebox .picture .botonn {
   display: inline-block;
-  margin: 1rem;
+  margin-left: 2rem;
+  margin-bottom: 2rem;
   padding: 1rem;
   border: 2px solid #896cff;
 }
-
-.hombre-container {
+.allall .hombre-container {
   display: flex;
   justify-content: flex-start;
   align-items: center;
   height: 70px;
-  margin-left: 35rem;
-  padding-left: 45px;
-  padding-bottom: 25px;
+  margin-left: 70px;
+  background: #fff;
 }
-.hombre-container .hombre {
+.allall .hombre-container .hombre {
+  width: 80rem;
+}
+.allall .hombre-container .hombre h4 {
   font-size: 3rem;
-  width: 100rem;
+  width: 85rem;
   padding-right: 2rem;
+  padding-bottom: 30px;
+  border-bottom: 1px solid #3c3c3c;
 }
-.hombre-container .botonhombre {
+.allall .hombre-container .botonhombre {
   font-size: 1.4rem;
   border: 2px solid #896cff;
-  padding: 10px 20px 10px 20px;
+  padding: 8px 50px 8px 50px;
+  margin-top: 30px;
+  margin-left: 100px;
 }
 
 /*# sourceMappingURL=styles.css.map */
