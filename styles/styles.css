@@ -204,5 +204,26 @@ nav .nav-box :hover {
   margin-top: 30px;
   margin-left: 100px;
 }
+.allall .nuestros-elegidos {
+  display: block;
+  width: 100%;
+}
+.allall .nuestros-elegidos p {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  text-align: center;
+  font-size: 3rem;
+}
+.allall .nuestros-elegidos-2 {
+  display: block;
+  width: 100%;
+}
+.allall .nuestros-elegidos-2 p {
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  text-align: center;
+  font-size: 1.8rem;
+  color: rgba(0, 0, 0, 0.87);
+}
 
 /*# sourceMappingURL=styles.css.map */
